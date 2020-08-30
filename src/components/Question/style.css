@@ -1,0 +1,21 @@
+.question{
+    grid-area: question;
+    background-color: #3c4855;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 'image name'
+                         'audio audio';
+}
+.question__name{
+    grid-area: name;
+    align-self: center;
+    text-align: center;
+    font-size: 2rem;
+}
+.question__image{
+    grid-area: image;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,43 @@
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto 50px;
+  grid-template-areas:  "header header"
+                        "question question"
+                        "answers description"
+                        "button button";
+  grid-gap: 1rem;
+}
+
+@media screen and (max-width: 756px) {
+  .app-container {
+    margin: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows:  auto auto auto auto 50px;
+    grid-template-areas:  "header"
+                          "question"
+                          "answers"
+                          "description"
+                          "button";
+  }
+}
+
+.rhap_container{
+  background-color: #282c34 !important;
+  border-radius: 0.5rem;
+  grid-area: audio;
+}
+.rhap_progress-indicator{
+  background-color: #77b269 !important;
+}
+.rhap_total-time,
+.rhap_current-time{
+  color: #77b269 !important;
+}
+.rhap_play-pause-button {
+  font-size: 30px !important;
+  width: 30px !important;
+  height: 30px !important;
+}

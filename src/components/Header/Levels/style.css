@@ -1,0 +1,10 @@
+.levels-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
