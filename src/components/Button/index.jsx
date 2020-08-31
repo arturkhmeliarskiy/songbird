@@ -17,7 +17,7 @@ function Button(props) {
          style = { (props.isActive) ? divStyleActive : divStyleDisabled }> 
     {props.message} 
     </div>
-  );
+  ); 
 }
 
 export default Button;
