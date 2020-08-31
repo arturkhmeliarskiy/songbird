@@ -5,12 +5,12 @@ function Score(props) {
 
   const currentScore = props.currentScore;
 
-  return (
+  return ( 
     <div className = 'score'>
         <span> Score: </span>
         <span className = 'score__counter'>{ currentScore }</span>
     </div>
-  );
+  ); 
 }
 
 export default Score;
