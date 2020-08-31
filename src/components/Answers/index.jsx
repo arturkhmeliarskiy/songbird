@@ -7,7 +7,7 @@ function Answers(props) {
   const items = props.currentState;
   const info = birdsData[props.level];
   const cb = props.cb;
-  
+   
   return (
     <div className = "answers" >
       <ul className = "answers__list">
