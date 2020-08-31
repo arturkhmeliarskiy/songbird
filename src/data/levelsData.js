@@ -5,5 +5,5 @@ const levelsData = [
     'Певчие птицы',
     'Хищные птицы',
     'Морские птицы',
-];
+]; 
 export default levelsData;
