@@ -7,7 +7,7 @@ function Option(props) {
   const line = props.line;
   const name = props.name;
   const style = props.style;
-  
+   
   return (
    <li className = 'answers__option'  onClick = { () => { handleClick(line) } }>
       <div className = 'answers__flag' style = { style }></div>
