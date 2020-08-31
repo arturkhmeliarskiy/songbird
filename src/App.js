@@ -13,7 +13,7 @@ import getRandomInteger from './utils/getRandomInteger';
 
 class App extends React.Component {
     constructor(props){
-        super(props);
+        super(props); 
         this.lastDataItem = birdsData.length-1;
         this.clickedItems = [];
         this.firstStateOfItems = Array(birdsData.length).fill('grey');
