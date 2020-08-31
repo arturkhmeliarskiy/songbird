@@ -22,7 +22,7 @@
     text-align: center;
     padding: 1rem;
 }
-.description__text{
+.description__text{ 
     grid-area: info;
     align-items: center;
 }
