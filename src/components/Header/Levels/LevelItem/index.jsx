@@ -8,6 +8,6 @@ function LevelItem(props) {
   } else {
     return <li className='item'>{props.title}</li>
   }
-}
+} 
 
 export default LevelItem;
