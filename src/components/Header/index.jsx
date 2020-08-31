@@ -18,6 +18,6 @@ function Header(props) {
       <Levels level = { level }/>
     </div>
   );
-}
+} 
 
 export default Header;
