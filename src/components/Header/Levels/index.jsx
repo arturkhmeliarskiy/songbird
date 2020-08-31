@@ -16,7 +16,7 @@ function Levels(props) {
       <LevelItem title = {levelsData[4]} level = {level} number = '4'/>
       <LevelItem title = {levelsData[5]} level = {level} number = '5'/>
     </ul>
-  )
+  ) 
 }
 
 export default Levels;
