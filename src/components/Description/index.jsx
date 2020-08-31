@@ -3,7 +3,7 @@ import './style.css';
 import Image from './../Image';
 import birdsData from './../../data/birdsData';
 import AudioPlayer from 'react-h5-audio-player';
-
+ 
 
 function Descrition(props) {
 
